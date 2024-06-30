@@ -25,8 +25,8 @@ def port_scan(target_host, start_port, end_port):
 
 Packet Sniffing 
 
-  #run the command "sudo ifconfig interface promisc”
-  #enable Promiscuous mod
+#run the command "sudo ifconfig interface promisc”
+#enable Promiscuous mod
 
 def prevent_packet_sniffing(interface):
     try:
